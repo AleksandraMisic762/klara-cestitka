@@ -7,12 +7,90 @@
 h1{
     color: white;
     text-align: center;
-    margin-top: 1em;
+    font-size: 100pt;
+    margin: 1em;
 }
 
-.slika1{
-    display: block;
+.gallery{
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 80%;
+    margin-bottom: 3em;
+}
+
+.gallery-item{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 60%;
+}
+
+.cestitka{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 48pt;
+    border: 1pt solid white;
+    color: white;
+    margin-bottom: 3em;
+}
+
+.cestitka-slika{
+    margin: 0.3em
+}
+
+@media screen and (max-width: 800px) {
+    h1{
+        color: white;
+        text-align: center;
+        font-size: 16pt;
+        margin: 1em;
+    }
+    
+    .gallery{
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    
+    .gallery-item{
+        display: flex;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        max-height: 300px;
+    }
+    
+    .cestitka{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        font-size: 12pt;
+        border: 1pt solid white;
+        color: white;
+        margin-bottom: 3em;
+    }
+    
+    .cestitka-slika{
+        vertical-align: middle;
+        margin: 0.5em;
+        width: 80%;
+    }
+
+    .text-cestitke{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }

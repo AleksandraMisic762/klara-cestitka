@@ -7,16 +7,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Srećna diploma</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 </head>
 
 <body>
-    <div>
+    <div class="header">
         <h1>Čestitamo!</h1>
     </div>
-    <div>
-        <img class="slika1" src="img/klara-edited.png" alt="Klara diplomirala!!!">
+
+    <div class="cestitka">
+        <div>
+            <img class="cestitka-slika" src="img/klara-edited.png" alt="Klara diplomirala!!!">
+        </div>
+        <div class="text-cestitke">
+            <div id="l-text">
+                <p>
+                    Lorina čestitka
+                    <br>Lora
+                </p>
+            </div>
+            <div id="m-text">
+                <p>
+                    Miličina čestitka
+                    <br>Milica
+                </p>
+            </div>
+            <div id="a-text">
+                <p>
+                    Čestitam! Želim ti puno sreće u svemu što budeš radila!
+                    <br>Aleksandra
+                </p>
+            </div>
+        </div>
+    </div>
     </div>
 
+    <div class="gallery">
+        <h1>Ovde neki naslov koji smislimo</h1>
+    </div>
+    <div class="gallery">
+
+        <div><img class="gallery-item" src="img/klara-diplomiranje-1.jpeg" alt=""></div>
+        <div><img class="gallery-item" src="img/klara-diplomiranje-2.jpeg" alt=""></div>
+        <div><img class="gallery-item" src="img/klara-diplomiranje-3.jpeg" alt=""></div>
+        <div><img class="gallery-item" src="img/klara-diplomiranje-4.jpeg" alt=""></div>
+        <div><img class="gallery-item" src="img/klara-diplomiranje-5.jpeg" alt=""></div>
+        <div><img class="gallery-item" src="img/klara-diplomiranje-6.jpeg" alt=""></div>
+        <div><img class="gallery-item" src="img/klara-diplomiranje-7.jpeg" alt=""></div>
+        <div><img class="gallery-item" src="img/klara-diplomiranje-8.jpeg" alt=""></div>
+        <div><img class="gallery-item" src="img/klara-diplomiranje-9.jpeg" alt=""></div>
+
+
+        <div><img class="gallery-item" src="img/klara-diplomiranje-10.jpeg" alt=""></div>
+        <div><img class="gallery-item" src="img/klara-diplomiranje-11.jpeg" alt=""></div>
+        <div><img class="gallery-item" src="img/klara-diplomiranje-12.jpeg" alt=""></div>
+        <div><img class="gallery-item" src="img/klara-diplomiranje-13.jpeg" alt=""></div>
+        <div><img class="gallery-item" src="img/klara-diplomiranje-14.jpeg" alt=""></div>
+        <!-- <div><img src="img/klara-diplomiranje-15.jpeg" alt=""></div>
+        <div><img src="img/klara-diplomiranje-16.jpeg" alt=""></div>
+        <div><img src="img/klara-diplomiranje-17.jpeg" alt=""></div> -->
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.gallery').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+                arrows: false
+            });
+        });
+
+    </script>
 </body>
 
 </html>
