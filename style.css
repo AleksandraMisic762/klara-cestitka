@@ -7,7 +7,6 @@
 h1{
     color: white;
     text-align: center;
-    font-size: 100pt;
     margin: 1em;
 }
 
@@ -26,7 +25,7 @@ h1{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    max-height: 60%;
+    max-height: 30%;
 }
 
 .cestitka{
@@ -34,14 +33,21 @@ h1{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    font-size: 48pt;
     border: 1pt solid white;
     color: white;
     margin-bottom: 3em;
 }
 
 .cestitka-slika{
-    margin: 0.3em
+    margin: 1em;
+    max-width:50%;
+}
+
+.text-cestitke{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 @media screen and (max-width: 800px) {
