@@ -77,6 +77,8 @@ h1{
     
     .cestitka{
         display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-left: auto;
         margin-right: auto;
         width: 90%;
@@ -89,7 +91,6 @@ h1{
     .cestitka-slika{
         vertical-align: middle;
         margin: 0.5em;
-        width: 80%;
     }
 
     .text-cestitke{
