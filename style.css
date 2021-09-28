@@ -44,7 +44,7 @@ h1{
     margin: 1em;
     display: flex;
     flex-direction: column;
-    align-content: space-between;
+    text-align: justify;
     justify-content: space-evenly;
 }
 
@@ -63,7 +63,6 @@ h1{
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-        /* width: 90%; */
     }
     
     .gallery-item{
@@ -97,7 +96,7 @@ h1{
         margin: 1em;
         display: flex;
         flex-direction: column;
-        align-content: space-between;
-        justify-content: space-evenly;
+        text-align: justify;
+        justify-content: stretch;
     }
 }
